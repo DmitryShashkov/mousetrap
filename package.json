@@ -1,6 +1,6 @@
 {
-  "name": "mousetrap",
-  "version": "1.6.5",
+  "name": "tn-mousetrap",
+  "version": "1.6.6",
   "description": "Simple library for handling keyboard shortcuts",
   "main": "mousetrap.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ccampbell/mousetrap.git"
+    "url": "git://github.com/DmitryShashkov/mousetrap.git"
   },
   "keywords": [
     "keyboard",
@@ -19,6 +19,12 @@
     "events"
   ],
   "author": "Craig Campbell",
+  "contributors": [
+    {
+      "name": "Dmitry Shashkov",
+      "email": "shashkov.cr@gmail.com"
+    }
+  ],
   "license": "Apache-2.0 WITH LLVM-exception",
   "gitHead": "c202a0bd4967d5a3064f9cb376db51dec9345336",
   "readmeFilename": "README.md",
