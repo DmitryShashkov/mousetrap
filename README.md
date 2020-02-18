@@ -14,6 +14,14 @@ It is around **2kb** minified and gzipped and **4.5kb** minified, has no externa
 
 It has support for `keypress`, `keydown`, and `keyup` events on specific keys, keyboard combinations, or key sequences.
 
+### Important note
+This package is not an original `mousetrap` lib. It is a fork, created to resolve following issues:
+
+ - https://github.com/ccampbell/mousetrap/issues/324
+ - https://github.com/ccampbell/mousetrap/issues/473
+
+Please do not use this package in production, cause it will be removed once original `mousetrap` incorporates all the proposed solutions for mentioned issues. Consider using the original lib or creating your own fork instead.
+
 ## Getting started
 
 1. Include mousetrap on your page before the closing `</body>` tag

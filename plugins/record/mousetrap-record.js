@@ -67,6 +67,9 @@
 
         // remember this character if we're currently recording a sequence
         if (e.type === 'keydown') {
+            // to record shortcuts handled by the browser (mod+s ...)
+            e.preventDefault();
+
             if (character.length === 1 && _recordedCharacterKey) {
                 _recordCurrentCombo();
             }
